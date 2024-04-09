@@ -16,4 +16,4 @@ In any case, I’m so curious if this will be another random project I start and
 
 If you are not me and happened to stumble upon this page, feel free to contact me at irf@innumerablerandomformations.com.
 
-[^1]: Of course, I do not claim to write anything close to the literary value of Montaigne’s essays or the journalistic value of John Gruber’s blog.
+[^1]: Of course, I do not claim that I will be able to write anything close to the literary value of Montaigne’s essays or the journalistic value of John Gruber’s blog.
