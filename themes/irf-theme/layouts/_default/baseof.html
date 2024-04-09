@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="avenir">
+  <div class="w-80 center mt6">
+    <div class="fl w-20">
+      <h1 class="f-subheadline athelas"><a class="link black" href="/">{{ site.Params.logo }}</a></h1>
+      <p><a href="/about" class="link black">about</a></p>
+      <p><a href="/index.xml" class="link black">rss</a></p>
+    </div>
+    <div class="fl w-70 mt5 ml2 lh-copy">
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+  </div>
+
+  <div class="cf"></div>
+  
+  <footer>
+    <div class="w-60 center tc mt6">
+      {{ partial "footer.html" . }}
+    </div>
+  </footer>
+</body>
+</html>

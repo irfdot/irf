@@ -1,0 +1,7 @@
+baseURL = 'https://innumerablerandomformations.com/'
+languageCode = 'en-us'
+title = 'Innumerable Random Formations'
+theme = 'irf-theme'
+
+[params]
+  logo = 'irf.'
