@@ -1,12 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-copyright = '© 2023 ABC Widgets, Inc.'
+title = 'My New Hugo Site with the irf. theme'
+copyright = '2024 irf.'
 
 [params]
   logo = 'mnhs.'
-
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
