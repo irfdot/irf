@@ -14,6 +14,6 @@ There are a couple of influences that guide the structure of this blog[^1]. The 
 
 In any case, I’m so curious if this will be another random project I start and forget or if I’ll manage to return here to enter a dialogue with myself. 
 
-If you are not me and happened to stumble upon this page, feel free to contact me at irf@innumerablerandomformations.com.
+If you are not me and happened to stumble upon this page, feel free to contact me at irfdot@outlook.com.
 
 [^1]: Of course, I do not claim that I will be able to write anything close to the literary value of Montaigne’s essays or the journalistic value of John Gruber’s blog.
