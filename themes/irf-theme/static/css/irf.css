@@ -1,10 +1,6 @@
-a {
-    color: #333333;
-}
-
-a:hover{
+sup a {
     text-decoration: none;
-    background-color: #EEEEEE;
+    color: darkgrey;
 }
 
 .footnotes {
