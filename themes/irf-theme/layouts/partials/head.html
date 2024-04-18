@@ -3,7 +3,7 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 <link rel="stylesheet" href="/css/tachyons.min.css">
 <link rel="stylesheet" href="/css/irf.css">
-<a rel="me" href="https://mastodon.social/@{{ site.Params.mastodon }}">Mastodon</a>
+<link rel="me" href="https://mastodon.social/@{{ site.Params.mastodon }}">
 {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{ end }}
