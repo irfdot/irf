@@ -1,6 +1,6 @@
 +++
 title = 'memories of my domestic landscapes.'
-date = 2024-12-27
+date = 2024-12-30
 draft = false
 +++
 
