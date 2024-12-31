@@ -24,4 +24,4 @@ I am not nearly as skilled as Teunissen in photography, but I tried to emulate[^
 
 
 
-[^1]: Perhaps *being inspired* is the better term than *emulating* because none of my photos have the same compositional elements as Teunissen's photos. Plus, many of my photos do not have humans in the center.
+[^1]: Perhaps *being inspired* is the better term than *emulating* because none of my photos have the same compositional elements as Teunissen's photos.
