@@ -5,3 +5,8 @@ theme = 'irf-theme'
 
 [params]
   logo = 'irf.'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
