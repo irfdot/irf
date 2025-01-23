@@ -9,9 +9,9 @@ From Haruki Murakami's book [*Novelist as a Vocation*](https://www.penguinrandom
 > "When I began my first novel, *Hear the Wind Sing*, I knew I had no choice but to write about *having nothing to write about*."
 
 
-First things first: I have no <small>*~~`delusion`~~*</small> ambition  to write a novel. 
+First things first: I have no <sub>*~~`delusion`~~*</sub> ambition  to write a novel. 
 
-I want to write more because I discover more and more that the only way I can get in dialogue with my own thoughts is to put them on somewhere tangible[^1]. That way, I can let them <small>*~~`brew`~~*</small> exist outside my mind and return some days later to see what they have to tell me.  
+I want to write more because I discover more and more that the only way I can get in dialogue with my own thoughts is to put them on somewhere tangible[^1]. That way, I can let them <sup>*~~`brew`~~*</sup> exist outside my mind and return some days later to see what they have to tell me.  
 
 Unfortunately, doing so have been harder than I anticipated. For the longest time, I wanted to write this blog [^2] but I felt <small>*~~`constipated`~~*</small> *stumped* about what even to write about. I am still feeling that way, even more so now because I am going through some dog days. My brain feels like a badly made soup. I throw a bunch of things at the imaginary wall in my mind, but nothing sticks. 
 
