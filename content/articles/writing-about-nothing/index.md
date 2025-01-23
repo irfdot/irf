@@ -6,8 +6,12 @@ draft = false
 
 From Haruki Murakami's book [*Novelist as a Vocation*](https://www.penguinrandomhouse.com/books/547926/novelist-as-a-vocation-by-haruki-murakami/) (p.82):
 
+{{< lead >}}
 > "When I began my first novel, *Hear the Wind Sing*, I knew I had no choice but to write about *having nothing to write about*."
+{{< /lead >}}
 
+<br>
+<br>
 
 First things first: I have no <sub>*~~delusion~~*</sub> ambition  to write a novel. 
 
