@@ -8,8 +8,6 @@ From Murakami's [*Novelist as a Vocation*](https://www.penguinrandomhouse.com/bo
 
 > "When I began my first novel, *Hear the Wind Sing*, I knew I had no choice but to write about *having nothing to write about*." (p.82)
 
-<br>
-
 First things first: I have no <small>*~~delusion~~*</small> ambition to write a novel. 
 
 I want to write more because it's becoming more and more clear to me that the only way I can get in dialogue with my own thoughts is to put them somewhere tangible[^1]. If I let them <small>*~~brew~~*</small> exist outside my mind, I can return some days later to see what they have to tell me. If I try to wrestle them in my mind, they run circles around me.
