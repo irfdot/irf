@@ -6,10 +6,10 @@ draft = false
 
 From the Men I Trust [song](https://youtu.be/rwSp40TBOS8?si=r8qBPsujEwRD61i0)[^1]:
 
-> To be ours
-> Like the trees on our shores
-> All tweezed
-> The cliffs eat away at our knees
+> To be ours  
+Like the trees on our shores  
+All tweezed  
+The cliffs eat away at our knees  
 
 It is nice to experience again, after quite some time, how good poetry stimulates something beneath all the chaos accumulated at the surface of my mind.
 
