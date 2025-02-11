@@ -6,3 +6,7 @@ sup a {
 .footnotes {
     font-size: 0.8em;
 }
+
+blockquote {
+    font-style: italic;
+}
