@@ -10,3 +10,9 @@ sup a {
 blockquote {
     font-style: italic;
 }
+
+pre {
+    font-size: 0.8rem;
+    text-indent: 1rem;
+    padding-left: 2rem;
+}
