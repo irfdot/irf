@@ -8,10 +8,15 @@ sup a {
 }
 
 blockquote {
-    font-family: monospace;
-    font-size: 0.9em;
+    font-family: Consolas,monaco,monospace;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    /* margin-left: 1em; */
+    /* font-size: 0.9rem; */
 }
 
 pre {
-    font-size: 0.9em;
+    /* margin-block-start: 1em;
+    margin-inline-start: 40px; */
+    /* font-size: 0.8rem; */
 }
