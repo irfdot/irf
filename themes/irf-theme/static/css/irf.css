@@ -9,12 +9,11 @@ sup a {
 
 blockquote {
     font-family: monospace;
-    font-size: 0.9rem;
-    /* padding-left: 2rem; */
+    font-size: 0.9em;
 }
 
 pre {
     font-family: monospace;
-    font-size: 0.9rem;
-    padding-left: 2rem;
+    font-size: 0.9em;
+    margin-block-start: 1em;
 }
