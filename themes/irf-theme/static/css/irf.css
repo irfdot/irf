@@ -9,8 +9,8 @@ sup a {
 
 blockquote {
     font-family: monospace;
-    font-size: 0.8rem;
-    padding-left: 2rem;
+    /* font-size: 0.8rem; */
+    /* padding-left: 2rem; */
 }
 
 pre {
