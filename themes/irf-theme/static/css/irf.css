@@ -13,7 +13,5 @@ blockquote {
 }
 
 pre {
-    font-family: monospace;
     font-size: 0.9em;
-    margin-block-start: 1em;
 }
