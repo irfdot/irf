@@ -8,10 +8,12 @@ sup a {
 }
 
 blockquote {
-    font-style: italic;
+    font-size: 0.8rem;
+    padding-left: 2rem;
 }
 
 pre {
+    font-family: monospace;
     font-size: 0.8rem;
     padding-left: 2rem;
 }
