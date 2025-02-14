@@ -4,16 +4,16 @@ sup a {
 }
 
 .footnotes {
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 blockquote {
+    font-family: monospace;
     font-size: 0.8rem;
     padding-left: 2rem;
 }
 
 pre {
-    font-family: monospace;
     font-size: 0.8rem;
     padding-left: 2rem;
 }
