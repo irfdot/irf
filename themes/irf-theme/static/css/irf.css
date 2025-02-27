@@ -10,6 +10,6 @@ sup a {
 blockquote {
     font-family: Consolas,monaco,monospace;
     font-size: 0.84em;
+    white-space: nowrap;
     margin-left: 1em;
-    margin-right: 0;
 }
