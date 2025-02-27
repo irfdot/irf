@@ -9,7 +9,7 @@ sup a {
 
 blockquote {
     font-family: Consolas,monaco,monospace;
-    font-size: 0.95rem;
-    white-space: nowrap;
-    font-size: 0.9rem;
+    font-size: 0.84em;
+    margin-left: 1em;
+    margin-right: 0;
 }
