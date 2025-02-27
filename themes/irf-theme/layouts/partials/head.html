@@ -1,9 +1,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Params.shortTitle }}{{ end }}</title>
+
 <link rel="stylesheet" href="/css/tachyons.min.css">
 <link rel="stylesheet" href="/css/irf.css">
+
 <link rel="me" href="https://mastodon.social/@{{ site.Params.mastodon }}">
+
 {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{ end }}
