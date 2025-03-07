@@ -4,13 +4,13 @@
   {{ partial "head.html" . }}
 </head>
 <body class="avenir">
-  <div class="w-90 center mt4">
-    <div class="fl w-20">
+  <div class="mt4 pa4 flex flex-wrap">
+    <div class="fl mr5">
       <h1 class="f-subheadline athelas"><a class="link black" href="/">{{ site.Params.logo }}</a></h1>
       <p><a href="/articles/hello-world" class="link black">about</a></p>
       <p><a href="/index.xml" class="link black">rss</a></p>
     </div>
-    <div class="fl w-70 mt7 ml4 lh-copy">
+    <div class="fl mt7-ns mt5-m mw6-ns lh-copy">
       <main>
         {{ block "main" . }}{{ end }}
       </main>
