@@ -1,6 +1,6 @@
 +++
-title = 'writing about having nothing to write about.'
-date = 2025-01-22
+title = 'the sirens of titan.'
+date = 2025-09-02
 draft = false
 +++
 
