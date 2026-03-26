@@ -1,9 +1,31 @@
 {{ define "main" }}
-  {{ range site.RegularPages }}
+  {{ $paginator := .Paginate site.RegularPages }}
+  {{ range $paginator.Pages }}
     <h2><a href="{{ .RelPermalink }}" class="f3 link dim black">{{ .LinkTitle }}</a></h2>
     <p>
       {{ .Content }}
     </p>
     <p class="mv4">&nbsp;</p>
+  {{ end }}
+
+  {{ $pag := $paginator }}
+  {{ if gt $pag.TotalPages 1 }}
+  <nav class="tc mv5" aria-label="Pagination">
+    {{ if $pag.HasPrev }}
+      <a href="{{ $pag.First.URL }}" class="link dim black mh2" aria-label="First page">&laquo;</a>
+      <a href="{{ $pag.Prev.URL }}" class="link dim black mh2" aria-label="Previous page">&lsaquo;</a>
+    {{ end }}
+    {{ range $pag.Pagers }}
+      {{ if eq . $pag }}
+        <span class="dib mh2 b">{{ .PageNumber }}</span>
+      {{ else }}
+        <a href="{{ .URL }}" class="link dim black mh2">{{ .PageNumber }}</a>
+      {{ end }}
+    {{ end }}
+    {{ if $pag.HasNext }}
+      <a href="{{ $pag.Next.URL }}" class="link dim black mh2" aria-label="Next page">&rsaquo;</a>
+      <a href="{{ $pag.Last.URL }}" class="link dim black mh2" aria-label="Last page">&raquo;</a>
+    {{ end }}
+  </nav>
   {{ end }}
 {{ end }}

@@ -11,6 +11,9 @@ theme = 'irf-theme'
     name = 'Umit Aslan'
     email = 'umit@umitaslan.com'
 
+[pagination]
+  pagerSize = 5
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
