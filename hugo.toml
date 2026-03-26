@@ -1,11 +1,15 @@
 baseURL = 'https://innumerablerandomformations.com/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Innumerable Random Formations'
 theme = 'irf-theme'
 
 [params]
   logo = 'irf.'
   shortTitle = 'irf.'
+  description = 'Innumerable Random Formations — essays by Umit Aslan'
+  [params.author]
+    name = 'Umit Aslan'
+    email = 'umit@umitaslan.com'
 
 [markup]
   [markup.goldmark]

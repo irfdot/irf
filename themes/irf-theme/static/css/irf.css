@@ -5,10 +5,11 @@ sup a {
 
 del {
     color: lightgray;
+    text-decoration: line-through;
 }
 
 .footnotes {
-    font-size: 0.8rem;
+    font-size: 0.875rem;
 }
 
 blockquote {

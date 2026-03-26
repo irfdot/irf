@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<html lang="{{ or site.Language.Locale site.Language.Lang }}" dir="{{ or site.Language.Direction `ltr` }}">
 <head>
   {{ partial "head.html" . }}
 </head>
 <body class="avenir">
+  <a class="clip" href="#main">Skip to main content</a>
   <div class="mt4 pa4 flex flex-wrap">
-    <div class="fl mr5">
+    <nav class="fl mr5" aria-label="Primary navigation">
       <h1 class="f-subheadline athelas"><a class="link black" href="/">{{ site.Params.logo }}</a></h1>
       <p><a href="/articles/hello-world" class="link black">about</a></p>
-      <p><a href="/index.xml" class="link black">rss</a></p>
-    </div>
+      <p><a href="/index.xml" class="link black" title="Subscribe to RSS feed">rss</a></p>
+    </nav>
     <div class="fl mt7-ns mt5-m mw6-ns lh-copy">
-      <main>
+      <main id="main">
         {{ block "main" . }}{{ end }}
       </main>
     </div>

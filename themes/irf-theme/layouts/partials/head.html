@@ -1,10 +1,22 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Params.shortTitle }}{{ end }}</title>
+<meta name="description" content="{{ if .IsHome }}{{ site.Params.description | default site.Title }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}">
 
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="/css/tachyons.min.css">
 <link rel="stylesheet" href="/css/irf.css">
+
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ if .IsHome }}{{ site.Params.description | default site.Title }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ if .IsHome }}{{ site.Params.description | default site.Title }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}">
 
 <link rel="me" href="https://mastodon.social/@{{ site.Params.mastodon }}">
 

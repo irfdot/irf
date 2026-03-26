@@ -1,13 +1,10 @@
 name = 'irf-theme'
 license = 'MIT'
-licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Theme description'
+licenselink = 'https://github.com/irfdot/irf/blob/main/LICENSE'
+description = 'A minimal Hugo theme for personal essays'
 
-# The home page of the theme, where the source can be found
-homepage = 'https://github.com/owner/repo'
-
-# If you have a running demo of the theme
-demosite = 'https://owner.github.io/repo'
+homepage = 'https://github.com/irfdot/irf'
+demosite = 'https://innumerablerandomformations.com'
 
 # If the theme has a single author
 [author]
