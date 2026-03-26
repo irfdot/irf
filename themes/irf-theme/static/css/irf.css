@@ -16,3 +16,30 @@ blockquote {
     font-family: Athelas,serif;
     margin-left: 1em;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+    }
+
+    .black {
+        color: #e0e0e0;
+    }
+
+    .gray {
+        color: #999;
+    }
+
+    sup a {
+        color: #999;
+    }
+
+    del {
+        color: #555;
+    }
+
+    img {
+        filter: brightness(0.9);
+    }
+}
