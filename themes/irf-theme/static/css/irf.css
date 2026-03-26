@@ -1,6 +1,14 @@
+#main > p {
+    line-height: 2;
+}
+
 sup a {
     text-decoration: none;
     color: darkgrey;
+}
+
+sup a:hover {
+    text-decoration: underline;
 }
 
 del {
@@ -10,11 +18,26 @@ del {
 
 .footnotes {
     font-size: 0.875rem;
+    color: darkgrey;
+}
+
+.footnotes a {
+    color: darkgrey;
+}
+
+.footnotes .footnote-backref {
+    display: none;
 }
 
 blockquote {
     font-family: Athelas,serif;
-    margin-left: 1em;
+    text-align: justify;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+hr {
+    border: 0.5px solid lightgrey;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,7 +62,11 @@ blockquote {
         color: #555;
     }
 
+    hr {
+        border: 0.5px solid;
+    }
+
     img {
-        filter: brightness(0.9);
+        filter: brightness(0.8);
     }
 }

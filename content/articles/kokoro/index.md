@@ -4,11 +4,9 @@ date = 2026-03-25
 draft = false
 +++
 
-A beautiful album by Sababa 5 and Yurika Hanashima [^1]. 
+A beautiful album[^1] by [Sababa 5](https://sababa5.bandcamp.com) and [Yurika Hanashima](https://www.discogs.com/artist/6969086-Yurika-Hanashima). So familiar and so foreign at the same time [^2].
 
-So familiar and so foreign at the same time [^2]. 
-
-[![the release announcement of the album](/kokoro/kokoro.jpg)](https://sababa5.bandcamp.com/album/kokoro)
+![image from the album's bandcamp page](/kokoro/kokoro.jpg)
 
 [^1]: Turns out, it was published in 2024, but I bumped into it just today.
 

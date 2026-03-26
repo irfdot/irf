@@ -11,7 +11,7 @@
         <li class="mv2">
           <time class="f6 gray mr2" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02" }}</time>
           &mdash;
-          <a href="{{ .RelPermalink }}" class="link underline black dim">{{ .Title }}</a>
+          <a href="{{ .RelPermalink }}" class="link underline black">{{ .Title }}</a>
         </li>
       {{ end }}
     </ul>
@@ -21,19 +21,19 @@
   {{ if gt $pag.TotalPages 1 }}
   <nav class="tc mv5" aria-label="Pagination">
     {{ if $pag.HasPrev }}
-      <a href="{{ $pag.First.URL }}" class="link dim black mh2" aria-label="First page">&laquo;</a>
-      <a href="{{ $pag.Prev.URL }}" class="link dim black mh2" aria-label="Previous page">&lsaquo;</a>
+      <a href="{{ $pag.First.URL }}" class="link black mh2" aria-label="First page">&laquo;</a>
+      <a href="{{ $pag.Prev.URL }}" class="link black mh2" aria-label="Previous page">&lsaquo;</a>
     {{ end }}
     {{ range $pag.Pagers }}
       {{ if eq . $pag }}
         <span class="dib mh2 b">{{ .PageNumber }}</span>
       {{ else }}
-        <a href="{{ .URL }}" class="link dim black mh2">{{ .PageNumber }}</a>
+        <a href="{{ .URL }}" class="link black mh2">{{ .PageNumber }}</a>
       {{ end }}
     {{ end }}
     {{ if $pag.HasNext }}
-      <a href="{{ $pag.Next.URL }}" class="link dim black mh2" aria-label="Next page">&rsaquo;</a>
-      <a href="{{ $pag.Last.URL }}" class="link dim black mh2" aria-label="Last page">&raquo;</a>
+      <a href="{{ $pag.Next.URL }}" class="link black mh2" aria-label="Next page">&rsaquo;</a>
+      <a href="{{ $pag.Last.URL }}" class="link black mh2" aria-label="Last page">&raquo;</a>
     {{ end }}
   </nav>
   {{ end }}
