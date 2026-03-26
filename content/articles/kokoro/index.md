@@ -4,7 +4,7 @@ date = 2026-03-25
 draft = false
 +++
 
-A beautiful album published by Japanese artists Sababa 5 and Yurika Hanashima[^1]. 
+A beautiful album by Sababa 5 and Yurika Hanashima [^1]. 
 
 So familiar and so foreign at the same time [^2]. 
 
